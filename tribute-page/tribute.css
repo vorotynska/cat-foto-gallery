@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+ #main {
+    background-color: #EEEEEE;
+    margin: 0;
+    font-family: sans-serif; 
+    font-weight: 300;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  #title {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 130%;
+  }
+  
+  img {
+    display: block;
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px 10px;
+    width: 40%;
+  }
+  
+  #image  {
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    min-width: 300px;
+  }
+
+  #tribute-info :not(h3) {
+    text-align: left;
+    margin: auto;
+  }
+
+  h3, ul {
+    margin-bottom: 40px;
+  }
+  
+  ul li {
+    margin: 15px 0;
+  }
